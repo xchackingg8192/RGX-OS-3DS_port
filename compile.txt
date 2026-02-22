@@ -1,0 +1,22 @@
+you need devkitPRO/devkitARM installed in your computer.
+library:
+-stdio
+-stdlib
+-string
+-citro2d
+-time
+-unistd
+-sys/stat
+-stdarg
+-3ds
+============================
+
+============================
+how to compile:
+in windows:
+installer devkitpro with devkitpro installer _https://github.com/devkitPro/installer/releases ,select 3ds development and install it 
+run devkitpro MSYS2 and go to this file and tape make to create .3dsx and ELF file
+
+linux:see the guide_https://devkitpro.org/wiki/Getting_Started,
+if finish to install tape (my exemple is on arch) 'sudo pacman -S 3ds-dev' and you ready to compile run make in the folder and you have elf and 3dsx file! 
+enjoy;)
